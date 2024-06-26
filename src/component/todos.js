@@ -16,7 +16,7 @@ const Todos = ({ todos, deleteTodo }) => {
       if (new Date(todo.duedate) < new Date()){
         color = 'red'
       }
-      console.log(color)
+      // console.log(color)
       return (
         <Grid key={todo.id}>
           <Card data-testid={todo.content} style={{marginTop:10, background: color}}>
