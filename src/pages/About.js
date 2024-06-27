@@ -19,7 +19,7 @@ export default class About extends Component {
           <div className="centered">
             <div className="name_title">Brayden Nguyen</div>
             <div className="brief_description">
-                Hi, my name is Brayden and I am a second year CS student at Pitt and a SWE intern at IBM. Also, I do not have middle fingers.
+                Hi, my name is Brayden and I am a second year CS student at Pitt and a SWE intern at PNC. Also, I do not have middle fingers.
             </div>
           </div>
         </div>
