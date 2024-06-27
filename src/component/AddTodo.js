@@ -9,6 +9,7 @@ class AddTodo extends Component {
   constructor() {
     super();
     this.state = {
+      id: Math.floor(Math.random() * 10000),
       content: "",
       date: null,
       duedate: null
@@ -62,6 +63,7 @@ class AddTodo extends Component {
     if (this.state.content.trim()) {
       this.props.addTodo(this.state);
       this.setState({
+        id: Math.floor(Math.random() * 100000000),
         content: "",
         date: "",
         duedate: null
